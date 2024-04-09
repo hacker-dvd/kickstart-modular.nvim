@@ -49,3 +49,10 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 })
 
 -- vim: ts=2 sts=2 sw=2 et
+
+-- NOTE: my keymap
+vim.keymap.set('i', 'jk', '<ESC>')
+vim.keymap.set('n', '<C-Left>', ':vertical resize -3<CR>')
+vim.keymap.set('n', '<C-Right>', ':vertical resize +3<CR>')
+vim.keymap.set('n', '<C-Up>', ':resize +3<CR>')
+vim.keymap.set('n', '<C-Down>', ':resize -3<CR>')

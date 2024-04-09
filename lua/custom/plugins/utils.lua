@@ -22,14 +22,14 @@ return {
     },
     keys = {
       {
-        '<leader>fe',
+        '<leader>fE',
         function()
           require('neo-tree.command').execute { toggle = true, dir = vim.fn.getcwd() }
         end,
         desc = 'Explorer NeoTree (cwd)',
       },
       {
-        '<leader>fE',
+        '<leader>fe',
         function()
           require('neo-tree.command').execute { toggle = true, reveal = true }
         end,

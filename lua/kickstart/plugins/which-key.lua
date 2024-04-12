@@ -111,14 +111,14 @@ return {
 
       local mappings = {
 
-        ['a'] = { '<cmd>Alpha<cr>', 'Alpha' },
-        ['e'] = { '<cmd>NvimTreeToggle<cr>', 'Explorer' }, -- File Explorer
-        ['k'] = { '<cmd>bdelete<CR>', 'Kill Buffer' }, -- Close current file
-        ['m'] = { '<cmd>Mason<cr>', 'Mason' }, -- LSP Manager
-        ['p'] = { '<cmd>Lazy<CR>', 'Plugin Manager' }, -- Invoking plugin manager
-        ['q'] = { '<cmd>wqall!<CR>', 'Quit' }, -- Quit Neovim after saving the file
-        ['r'] = { '<cmd>lua vim.lsp.buf.format{async=true}<cr>', 'Reformat Code' },
-        ['w'] = { '<cmd>w!<CR>', 'Save' }, -- Save current file
+        -- ['a'] = { '<cmd>Alpha<cr>', 'Alpha' },
+        -- ['e'] = { '<cmd>NvimTreeToggle<cr>', 'Explorer' }, -- File Explorer
+        -- ['k'] = { '<cmd>bdelete<CR>', 'Kill Buffer' }, -- Close current file
+        -- ['m'] = { '<cmd>Mason<cr>', 'Mason' }, -- LSP Manager
+        -- ['p'] = { '<cmd>Lazy<CR>', 'Plugin Manager' }, -- Invoking plugin manager
+        -- ['q'] = { '<cmd>wqall!<CR>', 'Quit' }, -- Quit Neovim after saving the file
+        -- ['r'] = { '<cmd>lua vim.lsp.buf.format{async=true}<cr>', 'Reformat Code' },
+        -- ['w'] = { '<cmd>w!<CR>', 'Save' }, -- Save current file
 
         -- Language Support
         l = {

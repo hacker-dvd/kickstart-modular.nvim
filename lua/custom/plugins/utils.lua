@@ -22,7 +22,7 @@ return {
     },
     keys = {
       {
-        '<leader>fE',
+        '<C-b>',
         function()
           require('neo-tree.command').execute { toggle = true, dir = vim.fn.getcwd() }
         end,

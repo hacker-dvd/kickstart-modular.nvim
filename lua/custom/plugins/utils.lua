@@ -65,7 +65,7 @@ return {
           filtered_items = {
             visible = false, -- set to true to make hidden files visible
           },
-          follow_current_file = true, -- This will find and focus the current file in the active buffer
+          follow_current_file = { enable = true }, -- This will find and focus the current file in the active buffer
         },
         window = {
           mappings = {
